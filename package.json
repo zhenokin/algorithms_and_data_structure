@@ -1,0 +1,36 @@
+{
+  "name": "algorithms_and_data_structure",
+  "version": "1.0.0",
+  "description": "Main algorithms and data structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhenokin/algorithms_and_data_structure.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhenokin/algorithms_and_data_structure/issues"
+  },
+  "homepage": "https://github.com/zhenokin/algorithms_and_data_structure#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "sourceMaps": true,
+    "retainLines": true
+  }
+}
